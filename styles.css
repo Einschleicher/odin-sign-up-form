@@ -1,0 +1,8 @@
+#bg {
+    background-color: #5a914f;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+}
