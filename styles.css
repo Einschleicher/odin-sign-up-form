@@ -1,8 +1,36 @@
-#bg {
-    background-color: #5a914f;
-    width: 200px;
+body {
+    margin: 0;
 }
 
 .container {
     display: flex;
+    height: 100vh;
+}
+
+#bg-container {
+    background-color: #5a914f;
+    flex-shrink: 0;
+    flex-basis: 600px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #c55282;
+}
+
+#hero {
+    background-color: #c7c0c0;
+    flex: 1;
+}
+
+#form {
+    background-color: #8ddbc8;
+    flex: 1;
+}
+
+#submit {
+    background-color: #7c7676;
+    flex: 1;
 }
