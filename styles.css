@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+#form {
+    padding: 0 20px;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -24,20 +28,26 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #c55282;
 }
 
 #hero {
     background-color: #c7c0c0;
     flex: 1;
+    padding: 0 20px;
+}
+
+#hero h2 {
+    margin-top: 60px;
 }
 
 #form {
     background-color: #8ddbc8;
     flex: 1;
+    padding: 0 20px;
 }
 
 #submit {
     background-color: #7c7676;
     flex: 1;
+    padding: 20px;
 }
