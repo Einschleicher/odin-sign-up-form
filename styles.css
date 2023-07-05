@@ -8,9 +8,16 @@ body {
 }
 
 #bg-container {
-    background-color: #5a914f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     flex-basis: 600px;
+    overflow: hidden;
+}
+
+#bg-container img {
+    width: 800px;    
 }
 
 #form-container {
