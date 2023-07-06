@@ -15,18 +15,26 @@ span {
     height: 100vh;
 }
 
-#bg-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    flex-basis: 600px;
-    overflow: hidden;
+#banner {
+    background-color: #e75edc9a;
+    height: 200px;
+    width: 600px;
 }
 
-#bg-container img {
-    width: 800px;    
+#bg-container {
+    display: flex;
+    flex-basis: 600px;
+    align-items: center;
+    flex-direction: column;
+    background: center url(images/coffee-800.jpg);
+    color: white;
+    /* flex-shrink: 0;
+    overflow: hidden; */
 }
+
+/* #bg-container img {
+    width: 800px;    
+} */
 
 #form-container {
     display: flex;
