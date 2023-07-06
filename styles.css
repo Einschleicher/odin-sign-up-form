@@ -16,6 +16,7 @@ a:link, a:visited {
 
 img {
     height: 120px;
+    margin: 10px;
 }
 
 .container {
@@ -32,8 +33,7 @@ img {
 #banner {
     position: absolute;
     top: 60px;
-    background-color: rgb(34, 34, 34);
-    opacity: 70%;
+    background-color: rgb(34, 34, 34, 0.7);
     height: 130px;
     width: 600px;
     display: flex;
@@ -42,8 +42,9 @@ img {
 }
 
 #banner-text {
-    font-size: 4rem;
-    padding: 10px;
+    font-size: 3rem;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #bg-container {
