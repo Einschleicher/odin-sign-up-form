@@ -10,13 +10,47 @@ a:link, a:visited {
     color: white;
 }
 
+#submit a:link, #submit a:visited {
+    color: #0D4D19;
+}
+
 #form {
     padding: 0 20px;
+}
+
+p, button {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 img {
     height: 120px;
     margin: 10px;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 20px 30px 20px 0px;
+  }
+
+li {
+    padding: 5px 0px;
+}
+
+input {
+    display: block;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+button {
+    background-color: #0D4D19;
+    padding: 6px 12px;
+    color: white;
 }
 
 .container {
@@ -31,7 +65,7 @@ img {
 }
 
 #banner {
-    position: absolute;
+    position: relative;
     top: 60px;
     background-color: rgb(34, 34, 34, 0.7);
     height: 130px;
@@ -54,7 +88,6 @@ img {
     flex-direction: column;
     background: center url(images/coffee-800.jpg);
     color: white;
-    position: relative;
     /* flex-shrink: 0;
     overflow: hidden; */
 }
@@ -70,7 +103,7 @@ img {
 }
 
 #hero {
-    background-color: #c7c0c0;
+    background-color: rgb(245, 245, 245);
     flex: 1;
     padding: 0 20px;
 }
@@ -79,14 +112,18 @@ img {
     margin-top: 60px;
 }
 
+#form h2 {
+    margin: 0;
+    padding: 0;
+}
+
 #form {
-    background-color: #8ddbc8;
-    flex: 1;
-    padding: 0 20px;
+    flex: 0;
+    padding: 20px;
 }
 
 #submit {
-    background-color: #7c7676;
+    background-color: rgb(245, 245, 245);
     flex: 1;
     padding: 20px;
 }
