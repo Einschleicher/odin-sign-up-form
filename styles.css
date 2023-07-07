@@ -88,13 +88,7 @@ button {
     flex-direction: column;
     background: center url(images/coffee-800.jpg);
     color: white;
-    /* flex-shrink: 0;
-    overflow: hidden; */
 }
-
-/* #bg-container img {
-    width: 800px;    
-} */
 
 #form-container {
     display: flex;
